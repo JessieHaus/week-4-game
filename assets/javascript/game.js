@@ -15,7 +15,27 @@ var jewel2 = Math.floor(Math.random() *11+1)
 var jewel3 = Math.floor(Math.random() *11+1)
 var jewel4 = Math.floor(Math.random()*11+1)
 
-//The player will have to guess the answer.
+//Wins and losses tally 
+//first set up variable for userTotal, and then var for wins and losses
+//make each one equal 0 and then add functions below to have number change with clicks 
+var userTotal = 0;
+var wins = 0;
+var losses =0;
+
+
+// 
+$("#wins").text(wins);
+$("#losses").text(losses);
+
+//reset the game (look at other's code on how to reset)
+function reset(){
+        Random=Math.floor(Math.random() *101+19;
+        $("#randomNumber").text(Random);
+        //add random numbers to each jewel div from row 8 
+}
+
+
+
 
 //function here- call on the DOM to recognize when you click on a gem and log the amount 
 
