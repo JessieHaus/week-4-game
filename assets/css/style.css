@@ -24,3 +24,20 @@ body {
     font-size: 30px;
     
 }
+.winsss {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#totalscore {
+    background-color: lightgreen;
+    font: white;
+    size: 10px;
+
+}
+#score {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 20px;
+}
