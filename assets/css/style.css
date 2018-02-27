@@ -3,3 +3,24 @@
 body {
     background-color: lightskyblue;
 }
+
+/* row 2 */
+#crystal-collector {
+    background-color:salmon;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#instructions {
+    background-color: #FAEBD7;
+    color: green;
+    font-weight: bold;
+}
+
+#number {
+    background-color:green;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
